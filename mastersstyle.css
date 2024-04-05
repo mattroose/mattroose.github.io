@@ -1,0 +1,63 @@
+/* CSS for Masters Tournament Style */
+
+body {
+    background-color: #13573a; /* Green background */
+    color: #ffd700; /* Yellow text color */
+    font-family: 'Arial', sans-serif; /* Fancy lettering font */
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
+  a {
+    color: #ffd700; /* Yellow link color */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffd700; /* Yellow button background */
+    color: #13573a; /* Green button text color */
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #c9a300; /* Darker yellow on hover */
+  }
+  
+  /* Add more specific styling for specific elements if needed */
